@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url(../Basic-Portfolio/assets/images/gravel.png);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 200%;
+}
+form {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    font-family: 'Georgia', Times, serif;
+    border-bottom: 1.5px solid grey;
+}
+footer{
+    background-color: #666666;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border-top: 5px solid #4aaaa5;
+    text-align: center;
+    margin-top: 2rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', Times, serif;
+    color: #4aaaa5;
+}
+div.content {
+     border: 1px solid #dddddd;
+     background-color: #ffffff;
+     width: 960px;
+     margin: auto;
+     margin-top: 2rem;
+     padding: 1rem;
+
+}
+h1.AboutMe{
+    padding-left: 15px;
+}
+img.bioPic {
+    padding: 15px;
+    float: left;
+}
+hr.line {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+div.clearFix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+h2 {
+    padding-left: 15px;
+}
+p.Copyright {
+    color: #ffffff;
+    font-size: 10px;
+    padding: 1rem;
+}
+nav.Header__nav {
+    margin-left:auto;
+
+}
+.Header__content {
+    max-width: 960px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+nav.Header__nav a + a {
+    margin-left: 1rem;
+}
+header h1 {
+    padding: 1rem;
+    background-color: #4aaaa5;
+    color: #fff;
+    margin-bottom: 0;
+}
+input[type=text] {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+input.message {
+    height: 200px;
+    margin-top: 0.5rem;
+}
+input[type=submit] {
+    margin-top: 1rem;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem; 
+}
+form {
+    margin: 1rem;
+}
+hr.linetwo, hr.linethree {
+    margin: 1rem;
+}
+div.Hangman {
+    background-image: url(../Basic-Portfolio/assets/images/hangman.jpg);
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-left: 1rem;
+    background-size: cover;
+    margin-top: 1rem;
+    display: inline-block;
+    
+    
+}
+div.HangmanLink {
+    position: absolute;
+    background-color: #4aaaa5;
+    padding: 1rem;
+    right:0;
+    left:0;
+    top: 60%;
+    text-align: center;
+}
+a.HangmanText, a.RPGText, a.TriviaText, a.RIWText, a.RockPaperText {
+    color: #ffffff;
+}
+div.RPGGame {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-left: 2rem;
+    background-image: url(../Basic-Portfolio/assets/images/RPG.jpg);
+    margin-top: 1rem;
+    display: inline-block;
+}
+div.RPGLink{
+    position: absolute;
+    background-color: #4aaaa5;
+    padding: 1rem;
+    right:0;
+    left:0;
+    top: 60%;
+    text-align: center;
+}
+div.TriviaGame {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-left: 1rem;
+    background-image: url(../Basic-Portfolio/assets/images/Trivia.jpg);
+    margin-top: 2rem; 
+    display: inline-block;
+}
+div.TriviaLink {
+    position: absolute;
+    background-color: #4aaaa5;
+    padding: 1rem;
+    right:0;
+    left:0;
+    top: 60%;
+    text-align: center;  
+}
+div.RutgersInfoWidget {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-left: 2rem;
+    background-image: url(../Basic-Portfolio/assets/images/RIW.jpg);
+    margin-top: 2rem; 
+    display: inline-block;
+}
+div.RIWLink {
+    position: absolute;
+    background-color: #4aaaa5;
+    padding: 1rem;
+    right:0;
+    left:0;
+    top: 60%;
+    text-align: center;    
+}
+div.RockPaper {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-left: 1rem;
+    background-image: url(../Basic-Portfolio/assets/images/RockPaper.jpg);
+    margin-top: 2rem;  
+    margin-bottom: 2rem;
+}
+div.RockPaperLink {
+    position: absolute;
+    background-color: #4aaaa5;
+    padding: 1rem;
+    right:0;
+    left:0;
+    top: 60%;
+    text-align: center;      
+}
+.nav-nav>li {
+    border-right: 1px solid grey;
+    display: inline-block;
+    padding-right: 0.5rem;
+    padding-left:0.5rem;
+}
+.nav-nav>li:last-child {
+    border: none;
+}
