@@ -235,97 +235,146 @@ div.RockPaperLink {
     border: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
     p {
         line-height: 200%;
-        font-size: 1.5rem; 
+        font-size: 1rem; 
         text-align: center;
         display: block;
         margin: 0 auto;
     }
     img {
-        width: 300px;
         height: auto;
         margin: 0 auto;
         display: block;
         float: none;
+    }
+    img.bioPic {
+        width: 100%;
+        padding: 1rem;
     }
     div.content {
         width: 100%;
         display: block;
         margin: 0 auto;
         margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
     form {
         width: auto;
         display: block;
         font-size: 1.5rem;
-        text-align: center;
+        text-align: left;
     }
     h1 {
+        width: auto;
+        float: none;
+        display: block;
         text-align: center;
+        margin: auto;
+        padding: 0;
     }
     h2 {
         font-size: 2rem;
-        text-align: center;
+        text-align: left;
     }
     nav.Header__nav {
+        float: none;
+        width: auto;
         display: block;
-        font-size: 1rem;
+        padding: 1.5rem;
         text-align: center;
-        width: 100%;
+        margin: auto;
     }
     div.Hangman {
         display: block;
-        width: auto;
+        width: 75%;
         float:none;
         margin: 0 auto;
 
     }
     div.RPGGame{
         display: block;
-        width: auto;
+        width: 75%;
         float: none;
         margin: 0 auto;
         margin-top: 2rem;
     }
     div.TriviaGame {
         display: block;
-        width: auto;
+        width: 75%;
         float:none;
         margin: 0 auto;
         margin-top: 2rem;
     }
     div.RutgersInfoWidget {
         display: block;
-        width: auto;
+        width: 75%;
         float:none;
         margin: 0 auto;
         margin-top: 2rem;
     }
     div.RockPaper {
         display: block;
-        width: auto;
+        width: 75%;
         float:none;
         margin: 0 auto;
         margin-top: 2rem;
+    }
+    div.Header__content {
+        display: block;
+        position: static;
+        margin: auto;
+        padding: 0;
     }
 
 
 }
 
-@media () {
+@media only screen and (max-width: 768px) {
+    img {
+        width: 300px;
+        height: 250px;
+    }
+    div.content {
+        margin-top: 2rem;
+    }
+    h1 {
+        margin-left: 1rem;
+    }
+    Nav.Header__nav {
+        margin-right: 1rem;
+    }
+    .Header__content {
+        position: static;
+    }
+    div.index__Content, div.contact__Content {
+        width: 95%;
+    }
+    div.portfolio__Content {
+        width: auto;
+        padding-left: 0;
+    }
+
+
     
 }
 
-@media () {
-    
-}
+@media only screen and (max-width: 980px) {
+    div.content {
+        width: 55%;
+        margin: 0;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+    }
 
-@media () {
-    
-}
+    div.Header__content {
+        margin-left: 2rem;
+    }
 
-@media () {
-    
+    Nav.Header__nav {
+        margin-right: 2rem;
+    }
 }
