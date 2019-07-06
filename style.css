@@ -235,6 +235,27 @@ div.RockPaperLink {
     border: none;
 }
 
+@media only screen and (max-width: 980px)
+ {
+    div.content {
+        width: 55%;
+        margin: 0;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    div.Header__content {
+        margin-left: 2rem;
+    }
+
+    Nav.Header__nav {
+        margin-right: 2rem;
+    }
+}
+
+
+
 @media only screen and (max-width: 640px) {
     p {
         line-height: 200%;
@@ -359,22 +380,4 @@ div.RockPaperLink {
 
 
     
-}
-
-@media only screen and (max-width: 980px) {
-    div.content {
-        width: 55%;
-        margin: 0;
-        margin-left: 2rem;
-        margin-top: 2rem;
-        margin-bottom: 5rem;
-    }
-
-    div.Header__content {
-        margin-left: 2rem;
-    }
-
-    Nav.Header__nav {
-        margin-right: 2rem;
-    }
 }
